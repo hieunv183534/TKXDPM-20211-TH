@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="486.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Cart">
+   <children>
+      <ImageView fitHeight="45.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/image/logo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="5.0" style="-fx-font-size: 20; -fx-text-fill: #4F90E5; -fx-font-weight: bold;" text="CARD" />
+      <VBox layoutX="16.0" layoutY="43.0" prefHeight="423.0" prefWidth="587.0" style="-fx-border-color: #DADADA;">
+         <children>
+            <Pane prefHeight="86.0" prefWidth="585.0" style="-fx-border-color: #CDCDCD;">
+               <children>
+                  <ImageView fitHeight="86.0" fitWidth="82.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/book1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="107.0" layoutY="26.0" style="-fx-text-fill: #6797E6;" text="Book1" />
+                  <Button layoutX="107.0" layoutY="43.0" mnemonicParsing="false" text="Delete" />
+                  <Spinner editable="true" layoutX="479.0" layoutY="30.0" prefHeight="25.0" prefWidth="91.0" />
+                  <Label layoutX="421.0" layoutY="34.0" style="-fx-text-fill: #6797E6;" text="1000 VND" />
+               </children>
+            </Pane>
+            <Pane prefHeight="86.0" prefWidth="585.0" style="-fx-border-color: #CDCDCD;">
+               <children>
+                  <ImageView fitHeight="86.0" fitWidth="82.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/book1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="107.0" layoutY="26.0" style="-fx-text-fill: #6797E6;" text="Book2" />
+                  <Button layoutX="107.0" layoutY="43.0" mnemonicParsing="false" text="Delete" />
+                  <Spinner editable="true" layoutX="479.0" layoutY="30.0" prefHeight="25.0" prefWidth="91.0" />
+                  <Label layoutX="421.0" layoutY="34.0" style="-fx-text-fill: #6797E6;" text="2000 VND" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <Label layoutX="623.0" layoutY="60.0" text="Subtotal: " />
+      <Label layoutX="623.0" layoutY="92.0" text="Amount:" />
+      <Label layoutX="684.0" layoutY="60.0" style="-fx-text-fill: #6797E6;" text="3000 VND" />
+      <Label layoutX="755.0" layoutY="95.0" style="-fx-font-size: 8; -fx-text-fill: red;" text="VAT(10%)" />
+      <Label layoutX="684.0" layoutY="92.0" style="-fx-text-fill: #6797E6;" text="3300 VND" />
+      <Button layoutX="623.0" layoutY="186.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="165.0" style="-fx-background-color: red; -fx-text-fill: white; -fx-font-size: 16;" text="Place order" />
+      <Label layoutX="141.0" layoutY="12.0" text="Nguyễn Văn Hiếu 20183534" />
+   </children>
+</AnchorPane>
